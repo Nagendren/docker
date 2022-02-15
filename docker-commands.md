@@ -7,6 +7,12 @@
 - d -> detach mode
 - p -> port
 
+> example:
+```python
+docker pull jenkins/jenkins
+docker run -p 8080:8080 --name=jenkins-master -d jenkins/jenkins
+```
+
 **docker ps**
 - will list all the running container
 
