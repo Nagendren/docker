@@ -15,3 +15,6 @@
 
 **docker images**
 - will list all the images
+
+**docker search image-name**
+- will list search result
