@@ -7,7 +7,7 @@
 - d -> detach mode
 - p -> port
 
-> example:
+> Example:
 ```python
 docker pull jenkins/jenkins
 docker run -p 8080:8080 --name=jenkins-master -d jenkins/jenkins
